@@ -1,0 +1,52 @@
+<html>
+<head>
+<h1>Obrazac o učeniku</h1>
+<hr width="70%" align="left">
+</head>
+<body>
+<form method ="post" action="poslano,html">
+<table>
+<tr><td><label> Ime: </label></td>
+<td><input type="text" maxlength="30"/></td></tr>
+<tr><td><label>Prezime:</label></td>
+<td><input type="text" maxlength="30"/></td></tr>
+<tr><td><label for "pwd">Lozinka:</label></td>
+<td><input type="password" id="pwd" name="pwd"></td></tr>
+<tr><td><label>Spol:</label></td>
+<td><input type="radio" name="spol"value="musko" checked="musko"/>Muško</td>
+<td><input type ="radio" name="spol"/>Žensko</td></tr>
+</table>
+<input type="text"  value="Zagreb" /><br>
+<hr width="50%" align="left">
+
+
+<table>
+<tr><td><input type ="radio" name="skola"/>Osnovna škola</td></tr>
+<tr><td><input type = "radio" name="skola" value="srednja" checked="srednja"/>Srednja škola</td></tr>
+<tr><td><input type ="radio" name="skola"/>Fakultet</td></tr>
+</table>
+<table>
+<tr><td><input type="checkbox" name="alati" value="izrada" checked="izrada"/>Izrada web stranica</td></tr>
+<tr><td><input type="checkbox" name="alati"/>Web programiranje</td></tr>
+<tr><td><input type="checkbox" name="alati"/>Baze podataka</td></tr>
+</table>
+<hr width="50%" align="left">
+<label for "sport">Omiljeni šport</label>
+<select name="sport" id="sport">
+<option>Rukomet</option>
+<option>Nogomet</option>
+<option>Odbojka</option>
+</select>
+<label for "glazba">Omiljena glazba</label>
+<select name="glazba" id="glazba">
+<option>Funky</option>
+<option>Pop</option>
+<option>Rock</option>
+<option>Tehno</option>
+</select>
+<hr width="50%" align="left">
+<input type="submit" value="Pošalji"/>
+<input type="reset" value="Reset"/>
+</form>
+</body>
+</html>
